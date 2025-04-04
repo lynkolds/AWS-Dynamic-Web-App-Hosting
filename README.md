@@ -1,5 +1,6 @@
 ![Alt text](/3._Host_a_Dynamic_Web_App_on_AWS (1).png)
 
+
 # Hosting a Dynamic Website on AWS
 
 This repository contains the resources and scripts used to deploy a dynamic website on Amazon Web Services (AWS). The project leverages various AWS services to ensure high availability, scalability, and security for the dynamic web application.
