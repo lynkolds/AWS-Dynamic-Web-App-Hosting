@@ -131,7 +131,7 @@ cd app/Providers
 # Edit AppServiceProvider.php to force HTTPS in production
 sudo vi AppServiceProvider.php
 
-# Add the following code inside the "public function boot()" method:
+# To ensure consistent secure connection for users, add the following code inside the "public function boot()" method:
 # if (env('APP_ENV') === 'production') {
 #   \Illuminate\Support\Facades\URL::forceScheme('https');
 # }
