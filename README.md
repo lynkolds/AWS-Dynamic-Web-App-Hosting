@@ -33,11 +33,11 @@ This script is used for migrating the SQL script to the RDS database through an 
 ```bash
 #!/bin/bash
 
-S3_URI=s3://forthesql/V1__shopwise.sql
-RDS_ENDPOINT=database-1.cvc2q660ws86.us-east-2.rds.amazonaws.com
-RDS_DB_NAME=rds
-RDS_DB_USERNAME=rds
-RDS_DB_PASSWORD=rds156.
+S3_URI=
+RDS_ENDPOINT=
+RDS_DB_NAME=
+RDS_DB_USERNAME=
+RDS_DB_PASSWORD=
 
 # Update all packages
 sudo yum update -y
